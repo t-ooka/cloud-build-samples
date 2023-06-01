@@ -22,4 +22,12 @@ func main () {
   fmt.Println("Hello, universe!")
   fmt.Println("Hello, world!")
   fmt.Println("Hello, forks")
+  fmt.Println("Hello, forks")
+	fmt.Println(sum(1, 2))
+}
+
+// write a function to calculate the sum of two integers
+
+func sum(a int, b int) int {
+	return a + b
 }
